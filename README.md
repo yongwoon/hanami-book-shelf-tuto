@@ -1,37 +1,18 @@
 # Bookshelf
 
-Welcome to your new Hanami project!
+Let's play
 
-## Setup
+## 開発環境
 
-How to run tests:
-
-```bash
-% bundle exec rake
-```
-
-How to run the development console:
-
-```bash
-% bundle exec hanami console
-```
-
-How to run the development server:
-
-```bash
-% bundle exec hanami server
-```
-
-How to prepare (create and migrate) DB for `development` and `test` environments:
-
-```bash
-% bundle exec hanami db prepare
-
-% HANAMI_ENV=test bundle exec hanami db prepare
-```
-
-Explore Hanami [guides](https://guides.hanamirb.org/), [API docs](http://docs.hanamirb.org/1.3.3/), or jump in [chat](http://chat.hanamirb.org) for help. Enjoy! 🌸
+| list       | version |
+| ---------- | ------- |
+| ruby       | 2.6.5   |
+| hanami     | 1.3.3   |
+| postgresql | 12.1    |
 
 ## Links
 
-[hanami tutorial](https://guides.hanamirb.org/introduction/getting-started/)
+* [hanami tutorial](https://guides.hanamirb.org/introduction/getting-started/)
+* [set up dev](./docs/dev_env.md)
+* [hanami command](./docs/hanami_command.md)
+* [make command](./docs/make_command.md)
