@@ -14,7 +14,7 @@ services:
     #   - "DATABASE_PASSWORD=mysecretpassword1234"
     volumes:
       - $PWD:/app
-    links:
+    depends_on:
       - db
 
   db:
