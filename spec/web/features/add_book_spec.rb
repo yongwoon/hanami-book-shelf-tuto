@@ -15,7 +15,7 @@ RSpec.describe 'Add a book' do
       click_button 'Create'
     end
 
-    expect(page).to have_current_pate('/books')
+    expect(page).to have_current_path('/books')
     expect(page).to have_content('New book')
   end
 end
