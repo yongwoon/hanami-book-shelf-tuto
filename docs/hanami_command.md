@@ -35,3 +35,9 @@ HANAMI_ENV=test bundle exec hanami db prepare
 ```bash
 bundle exec hanami generate action web books#index
 ```
+
+* create model
+
+```bash
+bundle exec hanami generate model book
+```
