@@ -47,3 +47,9 @@ bundle exec hanami generate model book
 ```bash
 bundle exec hanami generate action web books#new
 ```
+
+* create books#create
+
+```bash
+bundle exec hanami generate action web books#create
+```
