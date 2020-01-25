@@ -1,29 +1,31 @@
 # Hanami command
 
-How to run tests:
+* How to run tests:
 
 ```bash
-% bundle exec rake
+bundle exec rake
 ```
 
-How to run the development console:
+* How to run the development console:
 
 ```bash
-% bundle exec hanami console
+bundle exec hanami console
 ```
 
-How to run the development server:
+* How to run the development server:
 
 ```bash
-% bundle exec hanami server
+bundle exec hanami server
 ```
 
-How to prepare (create and migrate) DB for `development` and `test` environments:
+* How to prepare (create and migrate) DB for `development` and `test` environments:
 
 ```bash
-% bundle exec hanami db prepare
+# development
+bundle exec hanami db prepare
 
-% HANAMI_ENV=test bundle exec hanami db prepare
+# test
+HANAMI_ENV=test bundle exec hanami db prepare
 ```
 
 Explore Hanami [guides](https://guides.hanamirb.org/), [API docs](http://docs.hanamirb.org/1.3.3/), or jump in [chat](http://chat.hanamirb.org) for help. Enjoy! 🌸
