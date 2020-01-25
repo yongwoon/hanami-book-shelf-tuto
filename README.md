@@ -1,6 +1,6 @@
 # Bookshelf
 
-Let's play
+To manage books.
 
 ## 開発環境
 
