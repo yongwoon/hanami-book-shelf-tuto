@@ -15,11 +15,17 @@ end
 
 group :test, :development do
   gem 'dotenv', '~> 2.4'
+  gem "rubocop"
+  gem "pry-byebug"
 end
 
 group :test do
+  gem "factory_bot"
+  gem "faker"
   gem 'rspec'
   gem 'capybara'
+  gem "timecop"
+  gem "webmock"
 end
 
 group :production do
