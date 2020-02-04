@@ -15,5 +15,9 @@ RSpec.describe AddBook do
       expect(result.book.title).to eq("The Fire Next Time")
       expect(result.book.author).to eq("James Baldwin")
     end
+
+    it "persists the Book" do
+      expect(result.book.id).to_not be_nil
+    end
   end
 end
