@@ -7,3 +7,10 @@
 ```bash
 bundle exec hanami generate app admin
 ```
+
+* create folder of Interactor
+
+```bash
+mkdir lib/bookshelf/interactors
+mkdir spec/bookshelf/interactors
+```
