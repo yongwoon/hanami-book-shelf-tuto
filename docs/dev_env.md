@@ -11,4 +11,5 @@ make shell
 
 hanami db prepare
 hanami db migrate
+HANAMI_ENV=test bundle exec hanami db prepare
 ```

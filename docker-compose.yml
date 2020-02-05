@@ -6,7 +6,7 @@ services:
     build: .
     command: hanami server --host=0.0.0.0
     ports:
-      - 2300:2300
+      - 3000:2300
     # environment:
     #   - "DATABASE_HOST=db"
     #   - "DATABASE_PORT=5432"
