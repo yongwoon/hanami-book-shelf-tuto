@@ -7,3 +7,5 @@ begin
   task default: :spec
 rescue LoadError
 end
+
+Dir[File.expand_path('../tasks', __FILE__) << '/*.rake'].each { |file| load file }
