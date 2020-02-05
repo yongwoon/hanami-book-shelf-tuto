@@ -14,3 +14,9 @@ bundle exec hanami generate app admin
 mkdir lib/bookshelf/interactors
 mkdir spec/bookshelf/interactors
 ```
+
+* mailer
+
+```bash
+bundle exec hanami generate mailer book_added_notification
+```
