@@ -2,3 +2,6 @@
 /tmp
 .env.local
 .env.*.local
+
+/logs
+!/logs/.keep
