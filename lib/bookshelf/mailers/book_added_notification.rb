@@ -2,8 +2,8 @@ module Mailers
   class BookAddedNotification
     include Hanami::Mailer
 
-    from    '<from>'
-    to      '<to>'
-    subject 'Hello'
+    from    'no-reply@example.com'
+    to      'admin@example.com'
+    subject 'Book added!'
   end
 end
