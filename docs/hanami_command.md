@@ -6,6 +6,12 @@
 bundle exec rake
 ```
 
+* show rake tasks
+
+```bash
+bundle exec rake -T
+```
+
 * How to run the development console:
 
 ```bash
