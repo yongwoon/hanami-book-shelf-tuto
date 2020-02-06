@@ -6,3 +6,4 @@
 
 root to: 'home#index'
 resources :books, only: [:index, :new, :create]
+get '/dashboard', to: 'dashboard#index'

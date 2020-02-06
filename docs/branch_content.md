@@ -20,3 +20,11 @@ mkdir spec/bookshelf/interactors
 ```bash
 bundle exec hanami generate mailer book_added_notification
 ```
+
+## feature/action
+
+* generate action
+
+```bash
+hanami generate action web dashboard#index
+```
